@@ -1,5 +1,7 @@
 .DS_Store
 build/*
 lib/*
+lib/raygui.c3l
+lib/raylib55.c3l
 # preserve folder for vendor files
 !lib/.gitkeep
