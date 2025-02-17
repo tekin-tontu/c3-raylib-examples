@@ -1,0 +1,192 @@
+{
+  "langrev": "1",
+  "warnings": ["no-unused"],
+  "dependency-search-paths": ["lib"],
+  "dependencies": ["raylib55", "raygui"],
+  "authors": ["Tekin Tontu <tekin@xzone.com.au>"],
+  "version": "0.1.0",
+  "sources": ["src/*"],
+  "output": "build",
+  "macos-min-version": "15.0",
+  "macos-sdk-version": "15.0",
+  "targets": {
+    "2d_camera": {
+      "type": "executable",
+      "sources": ["src/core/core_2d_camera.c3"]
+    },
+    "2d_camera_mouse_zoom": {
+      "type": "executable",
+      "sources": ["src/core/core_2d_camera_mouse_zoom.c3"]
+    },
+    "2d_camera_platformer": {
+      "type": "executable",
+      "sources": ["src/core/core_2d_camera_platformer.c3"]
+    },
+    "2d_camera_split_screen": {
+      "type": "executable",
+      "sources": ["src/core/core_2d_camera_split_screen.c3"]
+    },
+    "3d_camera_first_person": {
+      "type": "executable",
+      "sources": ["src/core/core_3d_camera_first_person.c3"]
+    },
+    "basic_lighting": {
+      "type": "executable",
+      "sources": ["src/shaders/shaders_basic_lighting.c3"]
+    },
+    "custom_uniform": {
+      "type": "executable",
+      "sources": ["src/shaders/shaders_custom_uniform.c3"]
+    },
+    "julia_set": {
+      "type": "executable",
+      "sources": ["src/shaders/shaders_julia_set.c3"]
+    },
+    "mesh_instancing": {
+      "type": "executable",
+      "sources": ["src/shaders/shaders_mesh_instancing.c3"]
+    },
+    "multi_sample2d": {
+      "type": "executable",
+      "sources": ["src/shaders/shaders_multi_sample2d.c3"]
+    },
+    "pallete_switch": {
+      "type": "executable",
+      "sources": ["src/shaders/shaders_pallete_switch.c3"]
+    },
+    "postprocessing": {
+      "type": "executable",
+      "sources": ["src/shaders/shaders_postprocessing.c3"]
+    },
+    "spotlight": {
+      "type": "executable",
+      "sources": ["src/shaders/shaders_spotlight.c3"]
+    },
+    "texture_outline": {
+      "type": "executable",
+      "sources": ["src/shaders/shaders_texture_outline.c3"]
+    },
+    "texture_waves": {
+      "type": "executable",
+      "sources": ["src/shaders/shaders_texture_waves.c3"]
+    },
+    "basic_shapes": {
+      "type": "executable",
+      "sources": ["src/shapes/shapes_basic_shapes.c3"]
+    },
+    "bouncing_ball": {
+      "type": "executable",
+      "sources": ["src/shapes/shapes_bouncing_ball.c3"]
+    },
+    "draw_circle_sector": {
+      "type": "executable",
+      "sources": ["src/shapes/shapes_draw_circle_sector.c3"]
+    },
+    "top_down_lights": {
+      "type": "executable",
+      "sources": ["src/shapes/shapes_top_down_lights.c3"]
+    },
+    "collision_area": {
+      "type": "executable",
+      "sources": ["src/shapes/shapes_collision_area.c3"]
+    },
+    "background_scrolling": {
+      "type": "executable",
+      "sources": ["src/textures/textures_background_scrolling.c3"]
+    },
+    "blend_modes": {
+      "type": "executable",
+      "sources": ["src/textures/textures_blend_modes.c3"]
+    },
+    "bunnymark": {
+      "type": "executable",
+      "sources": ["src/textures/textures_bunnymark.c3"]
+    },
+    "draw_tiled": {
+      "type": "executable",
+      "sources": ["src/textures/textures_draw_tiled.c3"]
+    },
+    "fog_of_war": {
+      "type": "executable",
+      "sources": ["src/textures/textures_fog_of_war.c3"]
+    },
+    "gif_player": {
+      "type": "executable",
+      "sources": ["src/textures/textures_gif_player.c3"]
+    },
+    "image_channel": {
+      "type": "executable",
+      "sources": ["src/textures/textures_image_channel.c3"]
+    },
+    "image_drawing": {
+      "type": "executable",
+      "sources": ["src/textures/textures_image_drawing.c3"]
+    },
+    "image_generation": {
+      "type": "executable",
+      "sources": ["src/textures/textures_image_generation.c3"]
+    },
+    "image_kernel": {
+      "type": "executable",
+      "sources": ["src/textures/textures_image_kernel.c3"]
+    },
+    "image_loading": {
+      "type": "executable",
+      "sources": ["src/textures/textures_image_loading.c3"]
+    },
+    "image_processing": {
+      "type": "executable",
+      "sources": ["src/textures/textures_image_processing.c3"]
+    },
+    "image_rotate": {
+      "type": "executable",
+      "sources": ["src/textures/textures_image_rotate.c3"]
+    },
+    "image_text": {
+      "type": "executable",
+      "sources": ["src/textures/textures_image_text.c3"]
+    },
+    "mouse_painting": {
+      "type": "executable",
+      "sources": ["src/textures/textures_mouse_painting.c3"]
+    },
+    "npatch_drawing": {
+      "type": "executable",
+      "sources": ["src/textures/textures_npatch_drawing.c3"]
+    },
+    "particles_blending": {
+      "type": "executable",
+      "sources": ["src/textures/textures_particles_blending.c3"]
+    },
+    "polygon": {
+      "type": "executable",
+      "sources": ["src/textures/textures_polygon.c3"]
+    },
+    "raw_data": {
+      "type": "executable",
+      "sources": ["src/textures/textures_raw_data.c3"]
+    },
+    "sprite_anim": {
+      "type": "executable",
+      "sources": ["src/textures/textures_sprite_anim.c3"]
+    },
+    "sprite_button": {
+      "type": "executable",
+      "sources": ["src/textures/textures_sprite_button.c3"]
+    },
+    "sprite_explosion": {
+      "type": "executable",
+      "sources": ["src/textures/textures_sprite_explosion.c3"]
+    },
+    "srcrec_dstrec": {
+      "type": "executable",
+      "sources": ["src/textures/textures_srcrec_dstrec.c3"]
+    },
+    "textured_curve": {
+      "type": "executable",
+      "sources": ["src/textures/textures_textured_curve.c3"]
+    }
+  },
+  "cpu": "generic",
+  "opt": "O0"
+}
