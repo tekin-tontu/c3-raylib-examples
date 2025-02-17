@@ -1,0 +1,5 @@
+.DS_Store
+build/
+lib/*
+# preserve folder for vendor files
+!lib/.gitkeep
