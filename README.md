@@ -19,10 +19,33 @@ Examples are grouped the same way as the c examples. To compile and run example 
     - 2d_camera_mouse_zoom
     - 2d_camera_platformer
     - 2d_camera_split_screen
-    - 2d_camera_first_person
+    - 3d_camera_first_person
 
-  * **Extra**
-    - topdown
+  * **Models**
+    - animation
+    - billboard
+    - bone_socket
+    - box_collision
+    - cubicmap
+    - draw_cube_texture
+    - first_person_maze
+    - geometric_shapes
+    - gpu_skinning
+    - heightmap
+    - loading
+    - loading_gltf
+    - loading_m3d
+    - loading_vox
+    - mesh_generation
+    - mesh_picking
+    - orthographic_projection
+    - point_rendering
+    - rlgl_solar_system
+    - skybox
+    - skybox2
+    - tesseract_view
+    - waving_cubes
+    - yaw_pitch_roll
 
   * **Shaders**
     - basic_lighting

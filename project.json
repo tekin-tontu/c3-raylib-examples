@@ -2,7 +2,7 @@
   "langrev": "1",
   "warnings": ["no-unused"],
   "dependency-search-paths": ["lib"],
-  "dependencies": ["raylib55", "raygui"],
+  "dependencies": ["raylib55"],
   "authors": ["Tekin Tontu <tekin@xzone.com.au>"],
   "version": "0.1.0",
   "sources": ["src/*"],
@@ -185,6 +185,102 @@
     "textured_curve": {
       "type": "executable",
       "sources": ["src/textures/textures_textured_curve.c3"]
+    },
+    "animation": {
+      "type": "executable",
+      "sources": ["src/models/models_animation.c3"]
+    },
+    "billboard": {
+      "type": "executable",
+      "sources": ["src/models/models_billboard.c3"]
+    },
+    "bone_socket": {
+      "type": "executable",
+      "sources": ["src/models/models_bone_socket.c3"]
+    },
+    "box_collision": {
+      "type": "executable",
+      "sources": ["src/models/models_box_collision.c3"]
+    },
+    "cubicmap": {
+      "type": "executable",
+      "sources": ["src/models/models_cubicmap.c3"]
+    },
+    "draw_cube_texture": {
+      "type": "executable",
+      "sources": ["src/models/models_draw_cube_texture.c3"]
+    },
+    "first_person_maze": {
+      "type": "executable",
+      "sources": ["src/models/models_first_person_maze.c3"]
+    },
+    "geometric_shapes": {
+      "type": "executable",
+      "sources": ["src/models/models_geometric_shapes.c3"]
+    },
+    "gpu_skinning": {
+      "type": "executable",
+      "sources": ["src/models/models_gpu_skinning.c3"]
+    },
+    "heightmap": {
+      "type": "executable",
+      "sources": ["src/models/models_heightmap.c3"]
+    },
+    "loading": {
+      "type": "executable",
+      "sources": ["src/models/models_loading.c3"]
+    },
+    "loading_gltf": {
+      "type": "executable",
+      "sources": ["src/models/models_loading_gltf.c3"]
+    },
+    "loading_m3d": {
+      "type": "executable",
+      "sources": ["src/models/models_loading_m3d.c3"]
+    },
+    "loading_vox": {
+      "type": "executable",
+      "sources": ["src/models/models_loading_vox.c3"]
+    },
+    "mesh_generation": {
+      "type": "executable",
+      "sources": ["src/models/models_mesh_generation.c3"]
+    },
+    "mesh_picking": {
+      "type": "executable",
+      "sources": ["src/models/models_mesh_picking.c3"]
+    },
+    "orthographic_projection": {
+      "type": "executable",
+      "sources": ["src/models/models_orthographic_projection.c3"]
+    },
+    "point_rendering": {
+      "type": "executable",
+      "sources": ["src/models/models_point_rendering.c3"]
+    },
+    "rlgl_solar_system": {
+      "type": "executable",
+      "sources": ["src/models/models_rlgl_solar_system.c3"]
+    },
+    "skybox": {
+      "type": "executable",
+      "sources": ["src/models/models_skybox.c3"]
+    },
+    "tesseract_view": {
+      "type": "executable",
+      "sources": ["src/models/models_tesseract_view.c3"]
+    },
+    "waving_cubes": {
+      "type": "executable",
+      "sources": ["src/models/models_waving_cubes.c3"]
+    },
+    "yaw_pitch_roll": {
+      "type": "executable",
+      "sources": ["src/models/models_yaw_pitch_roll.c3"]
+    },
+    "skybox2": {
+      "type": "executable",
+      "sources": ["src/models/models_skybox2.c3"]
     }
   },
   "cpu": "generic",

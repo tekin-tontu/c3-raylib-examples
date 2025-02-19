@@ -159,10 +159,10 @@ fn int main()
             drawTexturedCurve();    // Draw a textured Spline Cubic Bezier
 
             // Draw spline for reference
-            // if (showCurve)  {
-            //     rl::drawSplineSegmentBezierCubic(curveStartPosition, curveStartPositionTangent,  curveEndPositionTangent, curveEndPosition, 10, rl::BLUE);
+            if (showCurve)  {
+                rl::drawSplineSegmentBezierCubic(curveStartPosition, curveStartPositionTangent,  curveEndPositionTangent, curveEndPosition, 10, rl::BLUE);
 
-            // }
+            }
 
             // Draw the various control points and highlight where the mouse is
             rl::drawLineV(curveStartPosition, curveStartPositionTangent, rl::SKYBLUE);

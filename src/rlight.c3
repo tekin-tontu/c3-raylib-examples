@@ -1,3 +1,6 @@
+// Copyright (c) 2024 Tekin Tontu. All rights reserved.
+// Use of self source code is governed by the MIT license
+// a copy of which can be found in the LICENSE file.
 module rlight;
 
 import raylib5::rl;
